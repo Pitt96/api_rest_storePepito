@@ -33,4 +33,8 @@ public class Sale {
     public void incrementTotal(double itemSubtotal){
         this.total += itemSubtotal;
     }
+
+    public void decrementTotal(double itemSubtotal){
+        this.total -= itemSubtotal;
+    }
 }
